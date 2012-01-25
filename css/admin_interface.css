@@ -6,7 +6,7 @@
 .admin_interface > nav > a:hover {color:   #30081b;}
 
 .admin_interface > nav .admin {
-    background:         url('../img/admin_bg.jpg') no-repeat bottom right, url('../img/admin_bg.jpg') repeat-x center;
+    background:         url('../img/admin/admin_bg.jpg') no-repeat bottom right, url('../img/admin/admin_bg.jpg') repeat-x center;
     font-family:        NeoBold;
     font-size:          14px;
     height:             23px;
@@ -27,7 +27,7 @@
     width:          20px;
     height:         29px;
     content:        "";
-    background:     url(../img/admin_bg.jpg) left top;
+    background:     url(../img/admin/admin_bg.jpg) left top;
     position:       absolute;
     top:            0px;
     left:           -16px;
@@ -56,11 +56,11 @@
 /* Стилизация меню */
 
 .one_line {
-    background:     url(../img/admin_nav_one_line.png) no-repeat right center;
+    background:     url(../img/admin/admin_nav_one_line.png) no-repeat right center;
 }
 
 .two_line {
-    background:     url(../img/admin_nav_two_line.png) no-repeat right center;
+    background:     url(../img/admin/admin_nav_two_line.png) no-repeat right center;
 }
 
 .two_line li:nth-child(2),
@@ -73,7 +73,7 @@
 }
 
 .three_line {
-    background:     url(../img/admin_nav_three_line.png) no-repeat right center;
+    background:     url(../img/admin/admin_nav_three_line.png) no-repeat right center;
     margin-right:   5px;
 }
 

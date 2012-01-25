@@ -1,6 +1,5 @@
 #main > header {
     background:     url(../img/header_bg.jpg);
-    min-height:     454px;
     border-top:     5px solid #30081b;
     border-bottom:  5px solid #30081b;
 }
@@ -68,3 +67,121 @@
     margin-top:     -35px;
     margin-bottom:  -6px;
 }
+
+#bottom a {
+    background:                 #30081b;
+    color:                      #f8f3e3;
+    text-align:                 center;
+    -webkit-border-radius:      6px;
+    -moz-border-radius:         6px;
+    border-radius:              6px;
+    padding:                    5px 10px;
+    font-size:                  14px;
+    font-family:                NeoBold;
+    margin-top:                 100px;
+    border:                     2px solid transparent;
+}
+
+#bottom a:hover {
+    border:         2px solid #fff;
+}
+
+#bottom .feedback_path {
+    float:          right;
+    position:       relative;
+    margin-right:   120px;
+}
+
+#bottom .feedback_path:after {
+    width:          0;
+    height:         0;
+    position:       absolute;
+    content:        "";
+    right:          -10px;
+    top:            3px;
+    border-top:     10px solid transparent;
+    border-left:    10px solid #30081b;
+    border-bottom:  10px solid transparent;
+}
+
+#bottom .blog_path {
+    float:          left;
+    margin-left:    120px;
+}
+
+#main .mid {
+    background:       url('../img/r_logo.png') no-repeat center center;
+    min-height:     345px;
+    clear:          both;
+    padding:        60px 0 40px 0;
+
+}
+
+.mid article {
+    display:        block;
+    font-family:    'NeoBold';
+    float:          left;
+    width:          291px;
+    background:     #fff;
+    font-size:      16px;
+    color:          #30081b;
+    margin-left:    10px;
+    padding:        0px 10px 30px 10px;
+}
+
+.mid article h1 {
+    color:          #31081a;
+    font-family:    NeoItalic;
+    position:       relative;
+    text-align:     center;
+    font-size:      18px;
+    padding-bottom: 10px;
+    background:     url(../img/mid_article_separator.png) no-repeat center bottom;
+}
+
+.mid article h1 a {color:   #30081b;}
+.mid article h1 a:hover {color:   #920b2b;}
+
+.mid article a,
+.mid article span {color:  #920b2b;}
+
+.mid article h1:before {
+    content:        "";
+    width:          0;
+    height:         0;
+    position:       absolute;
+    top:            -18px;
+    right:          -10px;
+    border-top:     45px solid #31081a;
+    border-left:    45px solid transparent;
+}
+
+.mid article h1:after {
+    content:        "";
+    width:          0;
+    height:         0;
+    position:       absolute;
+    top:            -8px;
+    right:          0px;
+    border-top:     15px solid #fff;
+    border-left:    15px solid transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
