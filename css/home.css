@@ -53,6 +53,14 @@
     left:           457px;
 }
 
+.new_tech {
+    background:     url(../img/nav/new_tech.png) no-repeat;
+    width:          268px;
+    height:         24px;
+    top:            217px;
+    left:           330px;
+}
+
 #bottom {
     background:     url(../img/header_bottom_bg.png) no-repeat;
     width:          946px !important;
