@@ -178,6 +178,7 @@
     float:          right;
     background:     none;
     color:          #5c081c;
+    width:          328px;
 }
 
 .mid .about_me span {color: #30081b;}
@@ -189,6 +190,7 @@
 .mid .about_me h1 {
     border-bottom:  1px solid #d0ccbf;
     padding-bottom: 10px;
+    font-size:      14px;
 }
 
 .mid .about_me h1 span {
