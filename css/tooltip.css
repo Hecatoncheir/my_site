@@ -57,5 +57,5 @@
 	margin:-40px;
 	z-index:9999;
 	-moz-animation:tooltip .25s linear;
-	-webkit-animation:myTooltip .15s linear;
+	-webkit-animation:tooltip .15s linear;
 } 
